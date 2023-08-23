@@ -13,6 +13,9 @@ const Card = ({ card }) => {
         )}
       </td>
       <td>{card.name}</td>
+      <td>
+        <i className={"ss ss-" + card.set + " ss-" + card.rarity}></i>
+      </td>
       <td>{card.power || card.toughness ? card.power / card.toughness : ""}</td>
       <td>{card.cmc}</td>
     </>

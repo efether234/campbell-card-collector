@@ -1,3 +1,8 @@
+/**
+ * The card schema matches the JSON object that will be
+ * received from the Scryfall API.
+ */
+
 const mongoose = require("mongoose");
 const Schema = require("mongoose").Schema;
 

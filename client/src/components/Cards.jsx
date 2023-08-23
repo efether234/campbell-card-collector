@@ -7,6 +7,7 @@ const Cards = ({ cards }) => {
         <tr>
           <th>Image</th>
           <th>Name</th>
+          <th>Set</th>
           <th>Power/Toughness</th>
           <th>CMC</th>
         </tr>
